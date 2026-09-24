@@ -26,7 +26,7 @@ ComplexWidget::ComplexWidget(QWidget *part) : QWidget(part), real(0), imaginary(
 
     setLayout(mainlay);
 
-    connect(update, &QPushButton::clicked, this, &ComplexWidget::updatevalues)
+    connect(update, &QPushButton::clicked, this, &ComplexWidget::updatevalues);
 }
 
 void ComplexWidget::updatevalues(){
