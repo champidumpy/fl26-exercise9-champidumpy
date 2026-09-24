@@ -19,7 +19,7 @@ ComplexWidget::ComplexWidget(QWidget *part) : QWidget(part), real(0), imaginary(
     inputlay->addWidget(new QLabel("Imaginary: "));
     inputlay->addWidget(imaginedit);
 
-    mainlay->addWidget(inputlay);
+    mainlay->addLayout(inputlay);
     mainlay->addWidget(update);
     mainlay->addWidget(magnitudelab);
     mainlay->addWidget(phaselab);

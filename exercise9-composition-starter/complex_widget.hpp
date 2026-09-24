@@ -30,7 +30,7 @@ class ComplexWidget : public QWidget
         QLabel *magnitudelab;
         QLabel *phaselab;
 
-        QPushButton update;
+        QPushButton *update;
 
         double real;
         double imaginary; 
