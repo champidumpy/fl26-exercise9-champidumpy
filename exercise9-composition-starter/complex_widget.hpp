@@ -14,7 +14,7 @@ class ComplexWidget : public QWidget
     Q_OBJECT
 
     public: 
-        explicit ComplexWidget(QWidget *parent : nullptr);
+        explicit ComplexWidget(QWidget *part = nullptr);
         double getRealPart() const;
         double getImaginaryPart() const;
         double getMagnitude() const;
