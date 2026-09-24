@@ -5,7 +5,7 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 
-ComplexWidget::ComplexWidget(QWidget *part) : QWidget(part), real(0), imaginary(0), magnitude(0), phase(0){
+ComplexWidget::ComplexWidget(QWidget *parent) : QWidget(parent), real(0), imaginary(0), magnitude(0), phase(0){
     realedit = new QLineEdit(this);
     imaginedit  = new QLineEdit(this);
     magnitudelab = new QLabel("Magnitude: 0", this);
